@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+@media only screen and (max-device-width: 640px) {
+    /* Styles */
+}
+    
+@media only screen and (max-device-width: 768px) {
+    /* Styles */
+}
+
+
+header{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+input[type=search]{
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 14px;
+    background-color: darkgray;
+    padding: 4px;
+
+}
+
+.sign-in-container{
+    position: absolute;
+    right: 15rem;
+    padding-left: 10px;
+    top: 10px;
+    
+
+}
+
+.sign-in{
+    background-color:white;
+    border: none;
+    
+
+    
+}
+
+.sign-up{
+    background-color: white;
+    border: none;
+    
+}
+
+.sign-up-container{
+    position: absolute;
+    right:10rem;
+    top: 10px;
+    
+
+}
+
+.shopping-bag img {
+    position: absolute;
+    right: 7em;
+    width: 25px;
+    height: 25px;
+    top: 5px;
+
+    
+}
+
+
+.search-bar {
+    position: absolute;
+    right: 20rem;
+    top: 5px;
+    
+
+}
+
+.search-bar button{
+    position: relative;
+    right: 35px;
+    background: none;
+    border: none;
+
+}
+
+
+
+/* common */
+
+.back-image img{
+    position: relative;
+    width: 100%;
+    
+    
+}
+
+.back-image p{
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    font-size: larger;
+    text-transform: capitalize;
+
+}
+
+.back-image h1{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    font-size: 30px;
+    max-width: fit-content;
+    
+
+}
+
+.main-banner {
+    background-color: rgba(110,100,100,1);
+    width: 100%;
+    text-align: center;
+}
+.main-banner h1{
+    text-decoration: underline;
+    color: white;
+    padding: 5px;
+
+   
+}
+   
+
+
+.men-women a{
+    position: relative;
+    color: white;
+
+}
+
+.category-title h1{
+    text-align: left;
+    padding: 30px;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  
+
+}
+
+
+.options img{
+    width: 200px;
+    height: 250px;
+}
+
+.options{
+    display: grid;
+    grid-template-columns: auto auto; 
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.offer-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.offer-option{
+    position: relative;
+
+}
+
+.offer-option p{
+    position: absolute;
+    top: 40%;
+    font-weight: bolder;
+    font-size:24px;
+    color: white;
+    text-shadow: 4px 4px 6px #000000;
+    display: flex;
+    justify-content: center;
+
+}
+
+.offer-option .btn{
+    position: absolute;
+    bottom: 5%;
+    right: 30%;
+    transition-duration: 0.4s;
+    padding: 10px 24px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    background-color: white;
+
+}
+
+.btn:hover{
+    color: aqua;
+    background-color: gray;
+}
+
+.offer-option .btn1{
+    position: absolute;
+    bottom: 5%;
+    right: 30%;
+    transition-duration: 0.4s;
+    padding: 10px 24px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.btn1:hover{
+    color: gold;
+    background-color: #000000;
+}
+
+.offer-option .btn2{
+    position: absolute;
+    bottom: 5%;
+    right: 30%;
+    transition-duration: 0.4s;
+    padding: 10px 24px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.btn2:hover{
+    color: red;
+    background-color: black;
+}
+
+.offer-option .btn3{
+    position: absolute;
+    bottom: 5%;
+    right: 30%;
+    transition-duration: 0.4s;
+    padding: 10px 24px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.btn3:hover{
+    color: beige;
+    background-color:brown;
+}
+
+.footer-container{
+    display: flex;
+    background-color: #000000;
+    padding-top: 10px;
+
+}   
+
+.support h1{
+    color:white;
+    margin: 20px auto;
+
+}
+
+
+.shop h1{
+    margin: 20px auto;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.links a{
+    color: white;
+    margin-left: 15%;    
+}
+
+
+.support h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.support a{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+.copy p{
+    color: white;
+}
+.footer-container .shop{
+   padding: 0 5%;
+}
+
+.footer-container  a{
+    text-decoration: none;
+    font-family: roboto;
+   
+}
+
+footer{
+    background-color: #000000;
+}
+
+hr{
+    margin: 20px;
+    color: gray;
+ 
+}
+
+.copy p{
+    font-size: small;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    p
+}
+
+
+
+
+
+
+
+
+
+
